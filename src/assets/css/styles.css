@@ -1,0 +1,49 @@
+body {
+    background-color: #008796;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    width: auto;
+    height: 4rem;
+}
+
+section {
+    background-color: black;
+    width: auto;
+    height: 16rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    flex: 3;
+    height: 100%;
+    background-color:red;
+}
+
+.second-title {
+    display: flex;
+    background-color: white;
+    width: auto;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.asidebar {
+    flex: 1;
+    height: 100%;
+    background-color: rgb(123, 231, 231);
+}
+
+footer {
+    background-color: orange;
+    width: auto;
+    height: 4rem;
+}
